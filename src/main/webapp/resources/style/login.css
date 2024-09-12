@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.logArea {
+        padding-top: 50px;
+		width: 700px;
+		height: 500px;
+        margin: auto;
+	}
+	.logTitle {
+		padding-top: 20px;
+		width: 600px;
+		padding-bottom: 20px;
+		margin: auto;
+	}
+	
+	.logBox {
+		padding-top: 30px;
+		width: 600px;
+		height: 280px;
+		margin: auto;
+		border: 3px solid rgb(190, 189, 189);
+	
+	}
+    
+    .boxTitle {
+        text-align: left;
+        font-size: 15pt;
+        font-weight: 600;
+        margin: 5px;
+    }
+	
+	.logTable {	
+		margin: auto;
+	}
+	.logWrite {
+		width: 300px;
+		height: 40px;
+	}	
+	.logBtn {
+		width: 150px;
+        height: 100px;
+        background-color: rgb(65, 63, 63);
+        color: white;
+        font-size: 16px;
+	}
+    .logBtn:hover {
+        background-color: black;
+    }
+	.regBtn { 
+        border: 1px solid rgb(189, 185, 185);
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+        background-color: white;
+        color: black;
+	}
+    .regBtn:hover {
+        background-color: rgb(53, 51, 51);
+        color: white;
+    }

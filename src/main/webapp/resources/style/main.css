@@ -1,0 +1,208 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box ;color: rgb(48, 47, 47);
+}
+a:link{text-decoration: none;}
+
+.container {
+    width: auto;
+    height: 768px;
+    margin: 0px auto;
+}
+.topSpace {
+    background-color: rgb(246, 246, 255);;
+    border: 1px solid rgb(190, 189, 189);
+       
+}
+.topMenu {
+    margin: auto;
+    width: 1024px;
+    line-height: 10px;
+    font-size: 9pt;
+    padding: 10px;
+    text-align: right;
+}
+
+.mainHead {
+    width: 1024px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 80px;   
+}
+.title {
+    float: left;
+    font-weight: 600;
+    color: rgb(127, 48, 167);
+    font-size: 35pt;
+    line-height: 40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.search {
+    float: left;
+    width: 350px;
+    line-height: 40px;
+    margin-left: 200px;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 5px;
+}
+.srBtn {
+    float: left;
+    margin-left: 3px;
+    width: 70px;
+    line-height: 40px;
+    border: 1px solid rgb(173, 194, 233);  
+    border-radius: 3px;   
+    font-size: 12pt;
+    font-weight: 700;
+    color: white;
+    background-color:cadetblue;
+}
+.cgArea {
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(204, 199, 199);
+}
+.cgSel {
+    margin: auto;
+    width: 1024px;
+}
+.cgBtn{
+    width: 190px;
+    color: white;
+    line-height: 30px;
+    font-size: 13pt;
+    font-weight: 520;
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(51, 49, 49);       
+}
+.session {
+    width: 1024px;
+    margin: 0px auto;
+}
+.leftSide {
+    width: 190px;
+    float: left;
+    margin-bottom: 20px;
+}
+.cgTable {
+    width: 190px;
+    border: 1px solid rgb(175, 172, 172); 
+    border-top: 0px;
+}
+.cgList{  
+    padding:15px 20px;
+    line-height: 40px;
+    text-align: left;
+    background-color: white;  
+    font-size: 16pt;
+}
+
+.cgList:hover {
+    background-color: rgb(240, 238, 238);  
+}
+
+
+.contents {
+    float: left;
+    margin: 20px;
+    width: 780px;
+    height: 550px;
+    overflow: hidden;  
+}
+
+.new {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(180, 63, 63);
+    width: 780px;
+    font-style: italic;
+    border-bottom: 1px solid rgb(180, 172, 172);
+}
+.slideShow {
+	width: 100%;
+	height: 550px;
+    clear: both;
+    overflow: hidden;
+    position: relative;
+} 
+#slides {
+    position: absolute;
+}
+#slides > img {
+    width: 100%;
+    float: left;
+}
+
+button {
+	position: absolute;
+	height: 550px;
+	border: none;
+	top: 0;
+	padding: 15px;
+	background-color: transparent;
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+	opacity: 0.5;	
+}
+
+button:hover{
+	cursor: pointer;
+	color: #fff;
+	opacity: 0.6;
+	background-color: #222;
+}
+
+button:focus {
+	outline: 0;
+}
+ 
+#prev {
+	left: 0;
+}
+
+#next {
+	right: 0;
+}
+.footbgm {
+    clear: left;
+    background-color: rgb(243, 241, 241);
+    border: 1px solid rgb(175, 172, 172);
+    height: 200px;
+    padding-top: 30px;
+}
+.foot1 {
+    width: 1024px;
+    margin: auto;
+}
+.foot1Ul{
+    float: left;
+    width: 200px;
+    margin-right: 50px;     
+}
+.fTel {
+    margin-top: 10px;
+    font-size: 20pt;
+    font-weight: 800;
+}
+.fTitle {
+    border-bottom: 1px solid rgb(165, 161, 161);
+    padding-bottom: 10px;
+    font-weight: 1000px;
+    font-size: 13pt;
+}
+.fBank {
+    margin-top: 10px;
+    font-size: 10pt; 
+}
+.foot2 {
+    border-bottom: 1px solid rgb(175, 172, 172);
+    
+}
+.foot2Con {
+    width: 1024px;
+    margin: auto;
+    line-height: 40px;
+    font-size: 10pt;
+}

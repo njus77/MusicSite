@@ -1,0 +1,36 @@
+.proTitle {
+    margin-bottom: 20px;
+    float: left;
+    color: rgb(180, 63, 63);
+    font-style: italic;
+    padding: 20px;
+    magin-top: 20px;
+    width: 790px;
+    border-bottom: 1px solid rgb(175, 172, 172);
+}
+.albumContent {
+	float: left;
+	width: 800px;
+}
+
+.albums{
+	float: left;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left: 30px;
+	font-weight: 600;
+	font-size: 11pt;
+	text-align: left;
+	
+}
+
+.btn {
+		margin-top: 10px;
+		background-color:fuchsia;
+		color: white;
+		width: 70px;
+		height: 30px;
+		font-size: 10pt;
+		text-align: center;	
+	}
+	.btn:hover{background: gray; color: black;}

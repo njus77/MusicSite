@@ -1,0 +1,128 @@
+.content {
+	margin-top:20px;
+    width: 1000px;
+}
+
+.tableArea { 
+	float: left;
+}
+
+.imgs {
+	padding-right: 25px;
+}
+
+
+.tableArea > table {   
+    text-align: left;
+    line-height: 40px;
+    font-size: 12pt;
+    width: 950px;
+}
+
+.caption {
+    text-align: left;
+    font-size: 18pt;
+    width: 700px;
+    font-weight: 700;
+    line-height: 30px;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid black;    
+}
+
+.kind {
+	width: 100px;
+}
+
+.orSum {
+    text-align: left;
+    font-size: 10pt;
+    font-weight: 700;
+    line-height: 20px;
+    height: 50px;
+    background-color:rgb(219, 139, 219); 
+    border-bottom: 2px solid black; 
+}
+.price {
+    text-align: right;
+ 
+}
+.areaBtn {
+	text-align: right;
+	margin-top:10px;
+}
+
+.orBtn {
+    width: 180px; 
+    height: 50px;
+    font-size: 15pt;
+    font-weight: 800;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+.orBtn:hover {
+ 	background-color:black;
+    color: white;
+}
+.desBtn {
+    width: 120px;
+    height: 50px;
+    font-size: 15pt;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid black; 
+}
+.desBtn:hover {
+ 	background-color: white;
+ 	font-weight: 800;
+}
+
+.Box {
+    clear: left;
+    padding-top: 50px;
+}
+.BoxContent {
+    font-size: 10pt;
+    color: rgb(151, 148, 148);
+}
+.tabTitle {
+    color: black;
+    font-size: 15pt;
+    font-weight: 800;
+}
+.tabMenu {
+    width: 1000px;
+    height: 100%;
+}
+.tabMenu input[type="radio"] {
+    display: none;
+}
+
+.tabMenu > label {
+	margin: 0 ;
+    display: inline-block; 
+    padding: 15px 51px;
+    font-weight: 600;
+    text-align: center;
+    color: #aaa;
+    border: 1px solid gray;
+}
+
+.tabMenu > label:hover {
+    color: #222;
+    cursor: pointer;
+}
+
+.tabContent {
+    display: none;
+    padding: 20px 0 0;
+   
+}
+
+#tab1:checked ~ #description,
+#tab2:checked ~ #delivery,
+#tab3:checked ~ #change,
+#tab4:checked ~ #review,
+#tab5:checked ~ #board {
+    margin-top: 20px;
+    display: block;
+}

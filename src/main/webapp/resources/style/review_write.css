@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.rvwArea{
+		float: left;
+		margin: 30px;
+		width: 750px;	
+	}
+	.rvwTable{
+		width: 730px;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	
+	.rvwTable th {
+		text-align: left;
+		border: 1px dotted black;
+		
+     	padding: 10px;
+	}
+	.rvwTable td {
+		border: 1px dotted black;
+     	padding: 10px;
+	}
+	.rvwContent {
+		border: 1px solid gray;
+		width: 400px;
+     	padding: 10px;
+	}	
+	 .star {
+            height: 20px;
+            font-size: 14pt;
+            color: rgb(233, 202, 25);
+        }
+	
+	.rvBtn {
+		margin-top: 10px;
+		background-color: white;
+		border: 1px dotted black;
+		color: black;
+		width: 90px;
+		height: 40px;
+		font-size: 10pt;
+		text-align: center;	
+	}
+	.rvBtn:hover{background: gray; color: black;}
+	.rvpBtn {
+		text-align: center;
+	}
